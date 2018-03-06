@@ -23,10 +23,14 @@
 			<li><a href="#works">Проекты</a></li>
 			<li><a href="#contacts">Контакты</a></li>
 		</ul>
+		<ul>
+			<li><a class="activeLink">RU</a></li>
+			<li><a href="index-en.html">EN</a></li>
+		</ul>
 	</nav>
 	<div class="info">
 		<img src="img/photo.jpg" alt="Фотография Денис Кургана">
-		<p>Меня зовут Денис. Я занимаюсь фронт-энд разработкой. В области моих компетенций находятся такие технологии и инструменты, как JavaScript (также в спецификации ES6), CSS3, HTML5, язык запросов MySQL, библиотеки jQuery, React и Lodash, фреймворки Bootstrap и Angular4 (основы разработки). Также умею работать с git, github, bash, npm, webpack, parcel, PostCSS.</p>
+		<p>Меня зовут Денис. Я занимаюсь фронт-энд разработкой. В области моих компетенций находятся такие технологии и инструменты, как JavaScript (также в спецификации ES6), CSS3, HTML5, MySQL, библиотеки jQuery, React и Lodash, фреймворки Bootstrap и Angular 5. Также умею работать с git, github, bash, npm, webpack, parcel, SCSS, PostCSS.</p>
 	</div>
 </header>
 <main>
@@ -79,11 +83,10 @@
 					<li><i class="fab fa-github"></i> <a href="https://github.com/MrKarlKori/" target="_blank">GitHub</a></li>
 				</ul>
 			</div>
-			<form action="">
-				<input type="text" placeholder="Имя">
-				<input type="email" placeholder="Почтовый ящик">
-				<textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-				<div class="row"><i class="fa fa-file"></i> <a href="">Прикрепить ТЗ</a></div>
+			<form method="GET" action="mailto:skaller@tut.by" enctype="text/plain">
+				<input type="text" name="subject" placeholder="Тема письма">
+				<textarea name="body" cols="30" rows="10" placeholder="Сообщение"></textarea>
+				<!-- <div class="row"><i class="fa fa-file"></i> <a href="">Прикрепить ТЗ</a></div> -->
 				<button class="send">Отправить</button>
 			</form>
 		</article>
